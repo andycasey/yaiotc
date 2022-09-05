@@ -1,0 +1,19 @@
+name: jax-cannon
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+    - python=3.8.5
+    - jax
+    - numpy
+    - astropy
+    - pyyaml
+    - scipy
+    - scikit-learn
+    - matplotlib
+    - tqdm
+    - ipython
+    - pip
+    - pip:
+      - jaxopt
+ 
